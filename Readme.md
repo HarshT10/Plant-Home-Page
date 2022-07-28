@@ -2,7 +2,9 @@
 
 - This project is a home page for plant retailers. 
 
+[Netlify](https://plant-home-page-harshthakkar1011.netlify.app/)
 
+![Badge](https://img.shields.io/badge/Netlify-Link-green)
 
 ---
 
