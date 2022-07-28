@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+:root {
+    --green: #466D50;
+    --grey: #F4F3F8;
+    --black: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--grey);
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* Navbar */
+
+#navbarMonstera {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navFirst {
+    display: flex;
+    cursor: pointer;
+}
+
+
+#navMid div {
+    padding: 0 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+#navMid h4 {
+    margin-top: 8px;
+    font-size: 21px;
+    font-family: 'Allerta', sans-serif;
+    font-weight: 600;
+    line-height: 35px;
+    border-bottom: 2px transparent;
+    transition: .2s;
+}
+
+#navMid h4:hover {
+    border-bottom: 2px solid var(--black);
+}
+
+#navEnd {
+    display: flex;
+}
+
+#navEnd div {
+    padding: 0 15px;
+    display: flex;
+}
+
+/* MID */
+
+#midWhole {
+    padding-top: 15%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#midWholePart1 {
+    display: flex;
+}
+
+#midWholePart11 .circles {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 6.6%;
+    top: 47%;
+    transform: translateX(-95%);
+}
+
+#midWholePart11 .circles .circle-wrapper {
+    padding-top: 20px;
+}
+
+#midWholePart11 .circles .firstcircle {
+    padding: 0;
+}
+
+#midWholePart11 .circles .circle-wrapper .circle-border {
+    text-align: center;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px transparent;
+    transition: .3s ease-in-out;
+}
+
+#midWholePart11 .circles .circle-wrapper .circle-border:hover {
+    border: 1px solid;
+}
+
+#midWholePart11 .circles .circle-wrapper .circle-border .circle {
+    font-size: .75rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#midWholePart11 #monstera {
+    font-size: 9rem;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    line-height: 1.2;
+}
+
+#midWholePart11 li {
+    list-style: none;
+}
+
+#midWholePart11 li p {
+    font-family: 'Abel', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 500;
+    width: 60%;
+    margin-bottom: 5px;
+}
+
+#midWholePart121 {
+    margin-top: 5%;
+    align-items: center;
+    display: flex;
+    background-color: var(--green);
+    padding: 20px 50px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    color: var(--grey);
+    cursor: pointer;
+}
+
+#midWholePart121 h1 {
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+}
+
+#midWholePart122 {
+    margin-left: 5%;
+}
+
+#midWholePart13 {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    margin-right: 450px;
+}
+
+#midWholePart13 .text-logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+#midWholePart13 .text-logo-wrapper .text {
+    margin-left: 10px;
+    font-family: 'Allerta', sans-serif;
+}
+
+#midWholePart13 .text-logo-wrapper .text h4 {
+    font-size: 1.5rem;
+}
+
+#midWholePart13 .text-logo-wrapper .text p {
+    font-size: 0.8rem;
+    width: 75%;
+}
+
+.col-2 #imgMain {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    height: 100vh;
+}
